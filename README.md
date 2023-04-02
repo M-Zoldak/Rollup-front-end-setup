@@ -1,5 +1,5 @@
 # Rollup-FrontEnd-Configuration
-Simple configuration of RollupJS for Frontend development.
+Simple configuration of RollupJS for Frontend development. After bundling there will be created transpiled and minified versions of files with support for older browsers thanks to Babel and PostCSS.
 
 ### Prerequisites
 NPM Installed - download from [node site](https://nodejs.org/en)
