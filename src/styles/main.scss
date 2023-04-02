@@ -1,0 +1,8 @@
+@import "./subfolder/style";
+
+.class {
+    background: #000122;
+    &_someohter {
+        color: red;
+    }
+}
