@@ -17,7 +17,6 @@ export default defineConfig({
         terser(),
         scss({
             output: "./build/styles/main.min.css",
-            runtime: require("sass"),
             watch: "./src/styles",
             processor: () => postcss([postcssPresetEnv, aspectRatio]),
             outputStyle: "compressed",
